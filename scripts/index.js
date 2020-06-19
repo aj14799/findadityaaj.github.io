@@ -182,7 +182,7 @@ $(function() {
         e.preventDefault();
 
         $.ajax({
-            url: 'https://https://aj14799.github.io/findadityaaj.github.io',
+            url: 'https://https://aj14799.github.io/',
             method: 'POST',
             data: { message: $('form').serialize() },
             dataType: 'json'
