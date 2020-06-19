@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJ_Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+
+    <!-- HOSTED -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800" rel="stylesheet" type="text/css" />
+    <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+
+    <!-- HOSTED -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+    <div class="overflow-wrap">
+        <!-- HOME -->
+        <div class="modal-wrap flex">
+            <div class="mask"></div>
+            <div class="modal" id="modal">
+                <div class="carousel-wrap">
+                    <div class="window">
+                        <div id="carousel">
+                            <div class="slide"></div>
+                            <div class="slide"></div>
+                            <div class="slide"></div>
+                        </div>
+                        <i class="mdi mdi-chevron-left" id="prev"></i>
+                        <i class="mdi mdi-chevron-right" id="next"></i>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="title"></div>
+                    <div class="tag"></div>
+                    <div class="detail"></div>
+                    <a href="#" target="_blank">
+                        <div class="button">
+                            <i class="mdi mdi-open-in-new"></i>VIEW SITE
+                        </div>
+                    </a>
+                </div>
+                <i class="close mdi mdi-close"></i>
+            </div>
+        </div>
+
+        <section id="home" class="flex height-fix">
+            <div id="pt" class="canvas"></div>
+            <div class="flex">
+                <div class="text">
+                    <h6>"Programming isn't about what you know; it's about what you can figure out.” <br/>- Chris Pine</h6>
+                    Hello, I'm <span class="highlight">Aditya Jha</span>.
+                    <br /> Python GUI Developer | Front-End Developer <br/> Cyber Security Enthusiast.
+
+                </div>
+
+                <div class="button page-link" dest="about">
+                    View my work <i class="mdi mdi-arrow-right"></i>
+                </div>
+
+
+                <nav class="flex">
+                    <div class="link-wrap">
+                        <div class="active page-link" dest="home">home</div>
+                        <div class="page-link" dest="about">about</div>
+                        <div class="page-link" dest="portfolio">Projects</div>
+                        <div class="page-link" dest="blog">My Certifications</div>
+                        <div class="page-link" dest="contact">contact</div>
+                    </div>
+                    <i class="mdi mdi-menu"></i>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    ABOUT
+                </div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+
+                <div class="flex row label-wrap">
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x">
+                                <div class="hexagon">
+                                	 <a href="https://www.facebook.com/adi14jha/">
+                                    <i class="mdi mdi-account-card-details"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in">
+                                <div class="label bold">
+                                   Resume</a>
+                                </div>
+                                <div>
+                                    <br/> <a href="https://drive.google.com/file/d/1X75qIIvVvYpcGyZ8FxFteyrmarj635on/view?usp=sharing">Download My Resume Here</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-account-star-variant"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+                                <div class="label bold">Attitude</div>
+                                <div>Work with positive attitude and keen to explore more <br/>(#keep calm and carry on)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex row-gt-sm">
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-lightbulb-outline"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+                                <div class="label bold">Prefrence among all my skills</div>
+                                <div>Strong preference for Python GUI Development.</div>
+                            </div>
+                        </div>
+
+                        <div class="flex bullet-wrap ">
+                            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+                                <div class="hexagon">
+                                    <i class="mdi mdi-rocket"></i>
+                                </div>
+                            </div>
+                            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+                                <div class="label bold">Dynamic</div>
+                                <div>
+                                    Flexible to work on multipule languages
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-wrapper flex row-gt-sm">
+                    <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+                        <img src="img/me.jpg" class="me" />
+                        <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+                        <div class="label bold">Who's this guy?</div>
+                        <div>
+                            <br/>I'm a Python GUI Developer with some handy hands on Front End Developing and a cyber security enthusiast in India. Currently as 3rd Year student of Bachelor of Technology in Computer Science and Engineering and Intern
+                            at Thomsonpress India Ltd. as <br/> GUI Developer.
+                            <br/>Currently learning Neural Networks and Deep Learning.
+                            <br /> I have serious passion for GUI developing, creating innovative, and to explore more and in the field of GUI development .
+                            <br />
+
+                            <span><h3>I'm Available For Freelancer</h3>I will provide high standard clean GUI Applications</span>
+                            <span class="page-link highlight" dest="contact"><br/>Let's make something special.</span>
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-50-gt-sm waypoint bars-wrap" data-animation="slide-in-right">
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">Python</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:90%">
+                                <div class="tag bold flex">Tkinter</div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:85%">
+                                <div class="tag bold flex">PyQt5</div>
+                            </div>
+                            <span>85%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">Sqlite3</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">wxPython</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">HTML</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">MySQL</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">cx_Oracle</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:80%">
+                                <div class="tag bold flex">pymysql</div>
+                            </div>
+                            <span>80%</span>
+                        </div>
+
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:75%">
+                                <div class="tag bold flex">C & C++</div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:75%">
+                                <div class="tag bold flex">Flask</div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:75%">
+                                <div class="tag bold flex">CSS</div>
+                            </div>
+                            <span>75%</span>
+                        </div>
+
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:73%">
+                                <div class="tag bold flex">Kali (Debian)</div>
+                            </div>
+                            <span>73%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:72%">
+                                <div class="tag bold flex">Linux</div>
+                            </div>
+                            <span>72%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:70%">
+                                <div class="tag bold flex">Bootstrap</div>
+                            </div>
+                            <span>70%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:67%">
+                                <div class="tag bold flex">Ethical Hacking</div>
+                            </div>
+                            <span>67%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:60%">
+                                <div class="tag bold flex">GitHub</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:60%">
+                                <div class="tag bold flex">C#</div>
+                            </div>
+                            <span>60%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:55%">
+                                <div class="tag bold flex">ML</div>
+                            </div>
+                            <span>55%</span>
+                        </div>
+
+                        <div class="bar flex">
+                            <div class="bar fill" style="width:55%">
+                                <div class="tag bold flex">DeepLearning</div>
+                            </div>
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="flex" id="portfolio">
+            <div class="header waypoint" data-animation="slide-in-right">
+                PROJECTS
+                <div>
+                    <h6>Types Of Projects I Worked On</h6>
+                </div>
+            </div>
+            <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+            <div class="filter-wrap waypoint" data-animation="fade-in">
+                <div class="flex row">
+                    <div class="filter"><mark>Python GUI Desktop Application</mark></div>
+                    <div class="filter"><mark>Python Gaming</mark></div>
+                    <div class="filter"><mark>Websites</mark></div>
+                    <div class="filter"><mark>Cyber Security</mark></div>
+                    <div class="filter"><mark>C++</mark></div>
+                </div>
+
+            </div>
+
+            <div id="gallery" class="container flex row wrap waypoint">
+                <div class="mix react" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Student Management System 2.0</div>
+                            <span class="highlight">Python GUI Application</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Advanced-Student-Database-Management">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix react" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Email Sender 1.0</div>
+                            <span class="highlight">Python GUI Application</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Bulk-Email-Sender-1.0">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix react" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Window's Auditing Software</div>
+                            <span class="highlight">Cyber Security / Python GUI Application</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Windows-Auditing-Advance">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Subway Suffers</div>
+                            <span class="highlight">Python Gaming Destop Application Using AI</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Subway-Sufers">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix rails" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Face Recognition</div>
+                            <span class="highlight">Python / Machine Learning</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Face-Recognition">REPOSITORY</a></div>
+                    </div>
+                </div>
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Ludo </div>
+                            <span class="highlight">Python Gaming </span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Ludo-using-Tkinter">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Railway Reservation System</div>
+                            <span class="highlight">Websites / Flask</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Train-Reservation-System">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix rails" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Responsive News Feeds</div>
+                            <span class="highlight">Websites / Bootstrap</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/News-Feed-Website">REPOSITORY</a></div>
+                    </div>
+                </div>
+
+                <div class="mix js" data-my-order="1">
+                    <div>
+                        <div class="card"></div>
+                        <div class="text">
+                            <div class="bold">Bank Management System</div>
+                            <span class="highlight">C++</span>
+                        </div>
+                        <div class="button"><a href="https://github.com/aj14799/Bank-System">REPOSITORY</a></div>
+                    </div>
+                </div>
+                <div class="icon-wrap flex row">
+                    <a href="https://github.com/aj14799">
+                        <div>
+                            <h3>For more Projects visit my GitHub Account </h3>
+                        </div>
+                        <div class="flex icon" id="icon-5">
+                            <i class="mdi mdi-github-box"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certis -->
+        <section id="blog">
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">Certification I Have</div>
+                <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+                <div class="flex row wrap">
+                    <div class="flex row-gt-sm">
+                        <a href="https://drive.google.com/file/d/1c7gofZV-rp65Qg7uOuaUHFL0fAEng3V_/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-1"></div>
+                                    <div class="label bold">Google IT Automation With Python Course 1 </div>
+                                    <div class="date">JUNE 15, 2020</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed this 6 week course with the score of 100% marks. It was the 1st sub-course under google automation course with python.<br>To see clear view of certificate, click on it.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1AqyOmEH01yEjmT4TRRg0e0Ovwhcj7G1H/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-2"></div>
+                                    <div class="label bold">All About Python and Learn to Code and Make Multipule Application </div>
+                                    <div class="date">JUNE 12, 2020</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed this 132 hours course on 12th of June. Explored knowlege on machine learning packages ,data minig, android basic, core java basics, C#, Flask, CIFER-10, APIs.It was a great experience.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1XfDMDYtj_eimJERJUY9yqBB00Wx2wEB5/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-3"></div>
+                                    <div class="label bold">Neural Networks and Deep Learning</div>
+                                    <div class="date">JUNE 14, 2020</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed this 1 out of 5 of Deep Learning by deeplearning.ai,4 Week course on 14th of June with 89.2%. Learnt some awesome concepts like Logistic Regression, Vetorization, shallow networks, Deep Neural Network.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://drive.google.com/file/d/12qP-zXa6SxacGwWnrG79vVFjoNQ6dpqZ/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-4"></div>
+                                    <div class="label bold">Programming For Everybody(Python)</div>
+                                    <div class="date">JUNE 14, 2020</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed this 7 week course on 14th of June with 99.2%.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex row wrap">
+                    <div class="flex row-gt-sm">
+                        <a href="https://drive.google.com/file/d/1bspax1Wn3HPXXvCiT0oLHahWMtlI6-d0/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-5"></div>
+                                    <div class="label bold">Cyber Security and Ethical Hacking</div>
+                                    <div class="date">JULY, 2019</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed this 1 month course on July 2019, and had a great experience with the course, learned many intresting cyber security tools and had a nice decent enjoyable "Windows Auditing Project".
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/139j95weXe-7hjHksOGHxTydDMd3vxtQA/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-6"></div>
+                                    <div class="label bold">Summer Tranning</div>
+                                    <div class="date">JUNE 21, 2019</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        Completed summer training based on Data Analytics using Maching Learning on June 21st, 2019.Gained experience of working on projects during the training period
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://drive.google.com/file/d/19h0h-1P9vK1O3rGdKkDkmJ-09UXZ8cJY/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-7"></div>
+                                    <div class="label bold">Learning with Goolge AI | Explore ML</div>
+                                    <div class="date">December, 2019</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        I was an overview on AI and ML as it was 2 day workshop, but had expored more about AI and ML.
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1oG7hsDpP0mYCebxVOlaRuCVHBmtusGyi/view?usp=sharing" target="_blank">
+                            <div class="blog-wrap waypoint" data-animation="fade-in">
+                                <div class="fade-wrap">
+                                    <div class="thumb" id="thumb-8"></div>
+                                    <div class="label bold">Hackinit</div>
+                                    <div class="date">SEPTEMBER 1, 2019</div>
+                                    <div class="bar"></div>
+                                    <div class="text">
+                                        I was a hackathon, wher i just got the partition certificate, but i matters me as it helped me to explore my self more and motiation to learn deeper in the world of codes
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3>For Clear view of Certificates, Click on it</h3>
+                </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+            <div class="container flex">
+                <div class="header waypoint" data-animation="slide-in-left">
+                    CONTACT
+                </div>
+                <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+                <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
+                    Have a question or want to work together?
+                </div>
+                <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form" method="POST" action="https://github.io/aj147ps@gmail.com">
+                    <input placeholder="Name" type="text" name="name" required />
+                    <input placeholder="Enter email" type="email" name="email" required />
+                    <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                    <div id="success">
+                        <div>
+                            Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+                        </div>
+                    </div>
+                    <input class="button" type="submit" id="submit" value="SUBMIT" />
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+
+            <div class="icon-wrap flex row">
+                <a href="tel:+918448403250">
+                    <div class="flex icon" id="icon-5">
+                        <i class="mdi mdi-phone"></i>
+                    </div>
+                </a>
+                <a href="mailto:aj147ps@gmail.com">
+                    <div class="flex icon" id="icon-5">
+                        <i class="mdi mdi-gmail"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aditya-jha-3b8566170/">
+                    <div class="flex icon" id="icon-2">
+                        <i class="mdi mdi-linkedin"></i>
+                    </div>
+                </a>
+
+                <a href="https://github.com/aj14799">
+                    <div class="flex icon" id="icon-5">
+                        <i class="mdi mdi-github-circle"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/adi14jha/">
+                    <div class="flex icon" id="icon-3">
+                        <i class="mdi mdi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/codewithajofficial/?hl=en">
+                    <div class="flex icon" id="icon-4">
+                        <i class="mdi mdi-instagram"></i>
+                    </div>
+                </a>
+
+
+            </div>
+
+            <div class="info-box">
+                <div class="footnote">
+                    ADITYA JHA <span class="highlight">&copy;2020</span>
+                </div>
+            </div>
+        </footer>
+        </div>
+
+        <div id="preload">
+            <img src="img/me.png" />
+            <img src="img/filler.jpg" />
+            <img src="img/thumb-1.jpg" />
+            <img src="img/thumb-2.jpg" />
+            <img src="img/thumb-3.jpg" />
+            <img src="img/thumb-4.jpg" />
+            <img src="img/thumb-5.jpg" />
+            <img src="img/thumb-6.jpg" />
+            <img src="img/thumb-7.jpg" />
+            <img src="img/thumb-8.jpg" />
+        </div>
+
+</body>
+
+</html>
+
+<script src="scripts/canvas.js"></script>
