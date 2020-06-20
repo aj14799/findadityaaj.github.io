@@ -182,7 +182,7 @@ $(function() {
         e.preventDefault();
 
         $.ajax({
-            url: 'https://https://aj14799.github.io/',
+            url: 'https://github.io/aj147ps@gmail.com',
             method: 'POST',
             data: { message: $('form').serialize() },
             dataType: 'json'
