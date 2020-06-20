@@ -182,7 +182,7 @@ $(function() {
         e.preventDefault();
 
         $.ajax({
-            url: 'https://github.io/aj147ps@gmail.com',
+            url: 'https://formspree.io/mrgyllvp',
             method: 'POST',
             data: { message: $('form').serialize() },
             dataType: 'json'
