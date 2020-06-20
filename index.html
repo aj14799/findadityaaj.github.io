@@ -97,13 +97,13 @@
                         <div class="flex bullet-wrap ">
                             <div class="hex-wrap waypoint" data-animation="flip-in-x">
                                 <div class="hexagon">
-                                	 <a href="#">
-                                    <i class="mdi mdi-account-card-details"></i>
+                                    <a href="#">
+                                        <i class="mdi mdi-account-card-details"></i>
                                 </div>
                             </div>
                             <div class="waypoint" data-animation="fade-in">
                                 <div class="label bold">
-                                   Resume</a>
+                                    Resume</a>
                                 </div>
                                 <div>
                                     <br/> <a href="#">Download My Resume Here</a>
@@ -337,39 +337,49 @@
 
             <div class="filter-wrap waypoint" data-animation="fade-in">
                 <div class="flex row">
-                    <div class="filter"><h2>Python GUI <br/>Desktop Application</h2></div>
-                    <div class="filter"><h2><mark>Websites</mark></h2></div>
-                    <div class="filter"><h2><mark>C++</mark></h2></div>
-                    <div class="filter"><h2><mark>Gaming</mark></h2></div>
-                    <div class="filter"><h2>Cyber <br/>Security</h2></div>
+                    <div class="filter" data-filter=".gui">GUI</div>
+                    <div class="filter" data-filter=".cyber">CYBER SECURITY</div>
+                    <div class="filter" data-filter=".web">WEBSITES</div>
+                    <div class="filter" data-filter=".cpp">C++</div>
+                    <div class="filter" data-filter=".gaming">GAMING</div>
+                    <div class="filter" data-filter=".ml">ML</div>
                 </div>
-
+                <div class="float-bar">
+                    <div class="flex row">
+                        <div class="filter" data-filter=".gui">GUI</div>
+                        <div class="filter" data-filter=".cyber">CYBER SECURITY</div>
+                        <div class="filter" data-filter=".web">WEBSITES</div>
+                        <div class="filter" data-filter=".cpp">C++</div>
+                        <div class="filter" data-filter=".gaming">GAMING</div>
+                        <div class="filter" data-filter=".ml">ML</div>
+                    </div>
+                </div>
             </div>
 
             <div id="gallery" class="container flex row wrap waypoint">
-                <div class="mix react" data-my-order="1">
+                <div class="mix gui" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
-                            <div class="bold">Student Management System 2.0</div>
+                            <div class="bold">Student Management</div>
                             <span class="highlight">Python GUI Application</span>
                         </div>
-                        <div class="button"><a href="https://github.com/aj14799/Advanced-Student-Database-Management">REPOSITORY</a></div>
+                        <div class="button" id="GUIApplication"><a href="https://github.com/aj14799/Advanced-Student-Database-Management">REPOSITORY</a></div>
                     </div>
                 </div>
 
-                <div class="mix react" data-my-order="1">
+                <div class="mix gui" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
                             <div class="bold">Email Sender 1.0</div>
                             <span class="highlight">Python GUI Application</span>
                         </div>
-                        <div class="button"><a href="https://github.com/aj14799/Bulk-Email-Sender-1.0">REPOSITORY</a></div>
+                        <div class="button" id="GUIApplication"><a href="https://github.com/aj14799/Bulk-Email-Sender-1.0">REPOSITORY</a></div>
                     </div>
                 </div>
 
-                <div class="mix react" data-my-order="1">
+                <div class="mix cyber gui" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -380,7 +390,7 @@
                     </div>
                 </div>
 
-                <div class="mix js" data-my-order="1">
+                <div class="mix gaming" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -391,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="mix rails" data-my-order="1">
+                <div class="mix ml" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -401,7 +411,7 @@
                         <div class="button"><a href="https://github.com/aj14799/Face-Recognition">REPOSITORY</a></div>
                     </div>
                 </div>
-                <div class="mix js" data-my-order="1">
+                <div class="mix gmaing" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -412,7 +422,7 @@
                     </div>
                 </div>
 
-                <div class="mix js" data-my-order="1">
+                <div class="mix web" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -423,7 +433,7 @@
                     </div>
                 </div>
 
-                <div class="mix rails" data-my-order="1">
+                <div class="mix web" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -434,7 +444,7 @@
                     </div>
                 </div>
 
-                <div class="mix js" data-my-order="1">
+                <div class="mix cpp" data-my-order="1">
                     <div>
                         <div class="card"></div>
                         <div class="text">
@@ -444,15 +454,20 @@
                         <div class="button"><a href="https://github.com/aj14799/Bank-System">REPOSITORY</a></div>
                     </div>
                 </div>
-                <div class="icon-wrap flex row">
-                    <a href="https://github.com/aj14799">
-                        <div>
-                            <h3>For more Projects visit my GitHub Account </h3>
-                        </div>
-                        <div class="flex icon" id="icon-5">
-                            <i class="mdi mdi-github-box"></i>
-                        </div>
-                    </a>
+                <div class="icon-wrap flex table">
+                    <div class="page-link" dest="portfolio">
+                        <h2><mark><strong>ALL</strong></mark></h2>
+                    </div>
+                    <div>
+                        <a href="https://github.com/aj14799">
+                            <div>
+                                <h3>For more Projects visit my GitHub Account </h3>
+                            </div>
+                            <div class="flex icon" id="icon-5">
+                                <i class="mdi mdi-github-box"></i>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -612,7 +627,7 @@
 
 
             <div class="icon-wrap flex row">
-                
+
                 <a href="https://www.linkedin.com/in/aditya-jha-3b8566170/">
                     <div class="flex icon" id="icon-2">
                         <i class="mdi mdi-linkedin"></i>
@@ -636,11 +651,11 @@
                     </div>
                 </a>
             </div>
-            
+
             <div class="icon-wrap flex row">
-                Contacts   
+                Contacts
             </div>
-            
+
             <div class="icon-wrap flex row">
                 <a href="tel:+918448403250">
                     <div class="flex icon" id="icon-5">
@@ -653,7 +668,7 @@
                     </div>
                 </a>
 
-            </div>    
+            </div>
 
             <div class="info-box">
                 <div class="footnote">
